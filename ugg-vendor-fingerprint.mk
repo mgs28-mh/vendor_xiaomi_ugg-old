@@ -25,4 +25,5 @@ PRODUCT_COPY_FILES += \
 
 # VNDK
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/ugg/fingerprint/vendor/lib/vndk/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libbinder.so \
     vendor/xiaomi/ugg/fingerprint/vendor/lib64/vndk/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vndk/libbinder.so
